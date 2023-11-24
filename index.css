@@ -1,0 +1,240 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 550px;
+    position: relative;
+}
+
+.navbar{
+    width: 550px;
+    height: 208px;
+    background: url("images/THJJRUhNlEc.png"),darkslategray 0px -158.291px / 100% 423.007% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar > h1{
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 42.795px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23.775px; /* 55.556% */
+    letter-spacing: -1.926px;
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */    
+    cursor: pointer;
+}
+
+.navbar > a:hover{
+    text-decoration: underline;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 189px;
+    left: 29px;
+}
+
+#form > input{
+    width: 342px;
+    padding: 9px 13px;
+    border-radius: 6px 0px 0px 6px;
+    color: #a5a5a5;
+    border-left: none;
+    border-top: none;
+    border-bottom-color: gray;
+    background: white;
+    color: var(--gray-600, #6B7280);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    
+}
+
+#form > button{
+    display: flex;
+    width: 120px;
+    padding: 9px 11px 9px 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    background: var(--gray-500, #6B7280);
+    cursor: pointer;
+    color: white;
+}
+
+.movies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+}
+
+.movies > img{
+    width: 70px;
+    height: 61.25px;
+    flex-shrink: 0;
+}
+
+.movies > span {
+    color: #DFDDDD;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+}
+
+.movies > a {
+    color: #363636;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+
+.movies > h2{
+    color: #DFDDDD;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.5px; /* 158.333% */
+}
+
+#error{
+    color: darkgray;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.5px; /* 158.333% */
+}
+
+.movie-main{
+    display: flex; 
+    align-items: center;  
+}
+
+.movie-content-middle{
+    max-width: 342px;
+    margin-bottom: 8px;
+}
+
+.movie-main{
+    max-width: 461px;
+}
+
+.movie-image{
+    width: 99px;
+    height: 147.411px;
+    flex-shrink: 0;
+    border-radius: 2.329px;
+    margin-right: 20px;
+}
+
+.adjust{
+    position: absolute;
+    top: 0;
+    padding: 44px;
+}
+
+.movie-title,
+.movie-rating,
+.movie-runtime,
+.movie-plot{
+    font-family: Inter;
+    font-style: normal;
+    line-height: 20px; /* 111.111% */
+    margin-top: 0px;
+}
+
+.movie-title{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.movie-rating{
+    color: #111827;
+    font-size: 15px;
+    line-height: 20px; /* 166.667% */
+}
+
+.movie-runtime,
+.movie-genre{
+    color: #111827;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.movie-content-bottom{
+    width: 342px;
+}
+
+.movie-plot{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.divider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-icon{
+    width: 13px;
+    height: 12px;
+}
+
+.add-div{
+    display: inline-block;
+}
+
+.add-btn{
+    color: #111827;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 20px; /* 166.667% */
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    color: red;
+}
