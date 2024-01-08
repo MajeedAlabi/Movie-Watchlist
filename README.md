@@ -1,11 +1,15 @@
 # Movie Watchlist
+## Features
+A simple app used to show understanding of how to obtain data from APIs. The app fetches data from the<a href='https://www.omdbapi.com/' target="_blank">omdbdb api</a> and displays the result. There is also a watchlist page in which interested movies can be saved for later use.Local storage is used to keep the information in the browser incase of a refresh so your data will not be lost.
 
-important - you need to be connected to the internet for this project to work because it was designed only considering the happy state to API calls.
+## Limitations
+The API does not have all the informations about all movies.
 
-This project contains an index.html page and watchlist.html page.
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
-The index.html page is hooked to the imbd api which displays any movie you search for.
+## Contact
+For questions or inquries, please contact <a href="mailto:kehindealabi123@gmail.com" target="_blank">kehindealabi123@gmail.com<a>
 
-The add button in the index.html page is used to add that particular movie to the watchlist page.
-
-The watchlist.html page is displays all the movies you have added to your library.
+Thank You!
+ 
